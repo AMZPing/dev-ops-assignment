@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello From Main Branch')
+  res.send('Hello From Feature 2 Branch')
 })
 
 app.listen(port, () => {
